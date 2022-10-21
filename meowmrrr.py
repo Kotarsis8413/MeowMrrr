@@ -12,7 +12,7 @@ def log(text):
 class f:
     def read(filename):
         fileopen = open(filename, 'r')
-        console.log(fileopen.read())
+        log(fileopen.read())
         fileopen.close()
     def edit(filename, content):
         fileopen = open(filename, 'w')
